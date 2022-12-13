@@ -17,18 +17,18 @@ void swap(int* a, int i, int j){
     a[j] = tmp;
 }
 
-void bubble_sort(int* arr, int n){
-    for(int i = 0; i < n-1; ++i){
-        int flag = 0;
-        //算法一共需要重复n-1次
-        for(int j = 0; j < n-1-i; ++j){
-            if(arr[j] > arr[j+1]){
-                flag = 1;
-                swap(arr, j, j+1);
-            }
+void insertion_sort(int* a, int n){
+    //打牌时理牌
+    //第一张牌默认排好序，后面的牌按照大小插入到排好序的牌中
+    for(int i = 1; i < n; ++i){
+        int j = i;
+        int cur = a[j];
+        while(j >= 1 && a[j-1] > cur){
+            a[j] = a[j-1];
+            j--;
         }
-        //如果有一次从头到尾都不需要swap则停止
-        if(flag == 0) break; 
+        //当a[j-1]<cur时 a[j-1]后面就是cur
+        a[j] = cur;
     }
 }
 
@@ -45,7 +45,7 @@ int main(){
     }
     cout << "排序前" << endl;
     display(a, n);
-    bubble_sort(a, n);
+    insertion_sort(a, n);
     cout << "排序后" << endl;
     display(a, n);
 }

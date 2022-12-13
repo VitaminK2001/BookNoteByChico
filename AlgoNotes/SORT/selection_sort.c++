@@ -17,20 +17,29 @@ void swap(int* a, int i, int j){
     a[j] = tmp;
 }
 
-void bubble_sort(int* arr, int n){
-    for(int i = 0; i < n-1; ++i){
-        int flag = 0;
-        //算法一共需要重复n-1次
-        for(int j = 0; j < n-1-i; ++j){
-            if(arr[j] > arr[j+1]){
-                flag = 1;
-                swap(arr, j, j+1);
+void selection_sort(int* arr, int n){
+    //每次选择最小的值
+    for(int i = 0; i < n; ++i){
+        int minV = arr[i];
+        int minK = i;
+        for(int j = i; j < n; ++j){
+            if(arr[j] < minV){
+                minV = arr[j];
+                minK = j;
             }
         }
-        //如果有一次从头到尾都不需要swap则停止
-        if(flag == 0) break; 
+        //经过调试发现bug在于一个数字不能重复使用
+        //简单的赋值是不对的必须交换两者的位置
+        // printf("第%d次\n", i);
+        // cout << "更新前" << arr[i] << endl;
+        int tmp = arr[i];
+        arr[i] = minV;
+        arr[minK] = tmp;
+        // cout << "更新后" << arr[i] << endl;
     }
 }
+
+
 
 int main(){
     int n = 0;
@@ -45,7 +54,7 @@ int main(){
     }
     cout << "排序前" << endl;
     display(a, n);
-    bubble_sort(a, n);
+    selection_sort(a, n);
     cout << "排序后" << endl;
     display(a, n);
 }
