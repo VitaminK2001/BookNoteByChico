@@ -10,8 +10,6 @@ to prefer that,,, 宁愿,,,
 
 adv,更可取地，最好
 
-![![截屏2022-08-22 09.13.04.png](httpss3-us-west-2.amazonaws.comsecure.notion-static.com663398bd-9be3-4b6a-b143-35d5bd588624%E6%88%AA%E5%B1%8F2022-08-22_09.13.04.png)](https://raw.githubusercontent.com/VitaminK2001/StudyPic/master/images/!%5B%E6%88%AA%E5%B1%8F2022-08-22%2009.13.04.png%5D(httpss3-us-west-2.amazonaws.comsecure.notion-static.com663398bd-9be3-4b6a-b143-35d5bd588624%25E6%2588%25AA%25E5%25B1%258F2022-08-22_09.13.04.png).png?token=AQHVUIGGAFYVWLVGMZYMQPTDTBYZU)
-
 water the plants twice a week, preferably in the morning 这些植物每周浇两次水，最好是在早晨
 
 serve with a white wine, preferably chilled 与白葡萄酒一起食用，最好是冷藏的
@@ -29,13 +27,6 @@ adj,及时的 adv,准时的
 we would appreciate a prompt reply 
 
 at six o’clock prompt 6点整
-
-![![截屏2022-08-22 09.14.45.png](httpss3-us-west-2.amazonaws.comsecure.notion-static.com1eee7eef-6688-4a7c-a33e-81d2cfe60a39%E6%88%AA%E5%B1%8F2022-08-22_09.14.45.png)
-](https://raw.githubusercontent.com/VitaminK2001/StudyPic/master/images/!%5B%E6%88%AA%E5%B1%8F2022-08-22%2009.14.45.png%5D(httpss3-us-west-2.amazonaws.comsecure.notion-static.com1eee7eef-6688-4a7c-a33e-81d2cfe60a39%25E6%2588%25AA%25E5%25B1%258F2022-08-22_09.14.45.png)%0A.png?token=AQHVUIDDAYDZOFZVG24ZBEDDTB2B6)
-
-![20221213204557](https://raw.githubusercontent.com/VitaminK2001/StudyPic/master/images/20221213204557.png?token=AQHVUIHFFSEYN6LZYS7LIADDTB2EI)
-
-![20221213204631](https://raw.githubusercontent.com/VitaminK2001/StudyPic/master/images/20221213204631.png?token=AQHVUIDRE7HVH4AKGAPWQ53DTB2GS)
 
 # record
 
@@ -73,13 +64,9 @@ a speed record 最高速度记录
 
 # outfit
 
-![20221213204657](https://raw.githubusercontent.com/VitaminK2001/StudyPic/master/images/20221213204657.png?token=AQHVUIDFYBOIKMRAA2BQRFTDTB2IC)
-
 the ship was outfitted with a 12-bed hospital
 
 一个配置了12个床位的医院
-
-![20221213204711](https://raw.githubusercontent.com/VitaminK2001/StudyPic/master/images/20221213204711.png?token=AQHVUIAZGZSSBVMXHKSBMU3DTB2JA)
 
 表示团队的时候不正式
 
