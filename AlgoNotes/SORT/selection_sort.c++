@@ -39,8 +39,6 @@ void selection_sort(int* arr, int n){
     }
 }
 
-
-
 int main(){
     int n = 0;
     cout << "输入数组长度: " << endl;
@@ -54,7 +52,7 @@ int main(){
     }
     cout << "排序前" << endl;
     display(a, n);
-    selection_sort(a, n);
+    selection_sort(a, n-1);
     cout << "排序后" << endl;
     display(a, n);
 }
