@@ -1,6 +1,4 @@
-<font color = wheat size = 2 face = stkaiti>
-
-## [a brief history of melancholy](https://www.bilibili.com/video/BV1Dk4y1q781?t=314.3)
+# a brief history of melancholy
 
 Sadness is part of the human experience,
 
@@ -37,7 +35,6 @@ you often respond by asking, "What happened?"
 But your assumption that sadness has an external cause outside the self
 
 is a relatively new idea.
-
 
 朋友搬走了或是宠物死了你都会感到悲伤
 
