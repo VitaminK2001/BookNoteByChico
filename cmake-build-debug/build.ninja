@@ -1,0 +1,694 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: KY_Bitree
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug && "/Applications/CLion 3.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug && "/Applications/CLion 3.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S/Users/vitamink/github_clone/BookNoteByChico -B/Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/vitamink/github_clone/BookNoteByChico/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build AlgoNotes/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/AlgoNotes && "/Applications/CLion 3.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build AlgoNotes/edit_cache: phony AlgoNotes/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build AlgoNotes/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/AlgoNotes && "/Applications/CLion 3.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S/Users/vitamink/github_clone/BookNoteByChico -B/Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build AlgoNotes/rebuild_cache: phony AlgoNotes/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build AlgoNotes/Leetcode/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/AlgoNotes/Leetcode && "/Applications/CLion 3.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build AlgoNotes/Leetcode/edit_cache: phony AlgoNotes/Leetcode/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build AlgoNotes/Leetcode/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/AlgoNotes/Leetcode && "/Applications/CLion 3.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S/Users/vitamink/github_clone/BookNoteByChico -B/Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build AlgoNotes/Leetcode/rebuild_cache: phony AlgoNotes/Leetcode/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/Leetcode/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build AlgoNotes/Leetcode/Bitree/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/AlgoNotes/Leetcode/Bitree && "/Applications/CLion 3.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build AlgoNotes/Leetcode/Bitree/edit_cache: phony AlgoNotes/Leetcode/Bitree/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build AlgoNotes/Leetcode/Bitree/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/AlgoNotes/Leetcode/Bitree && "/Applications/CLion 3.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S/Users/vitamink/github_clone/BookNoteByChico -B/Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build AlgoNotes/Leetcode/Bitree/rebuild_cache: phony AlgoNotes/Leetcode/Bitree/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/Leetcode/Bitree/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 33
+
+
+#############################################
+# Order-only phony target for 33
+
+build cmake_object_order_depends_target_33: phony || AlgoNotes/Leetcode/Bitree/剑指offer33二叉搜索树的后序遍历序列/CMakeFiles/33.dir
+
+build AlgoNotes/Leetcode/Bitree/剑指offer33二叉搜索树的后序遍历序列/CMakeFiles/33.dir/Solution.c.o: C_COMPILER__33_Debug /Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/Leetcode/Bitree/剑指offer33二叉搜索树的后序遍历序列/Solution.c || cmake_object_order_depends_target_33
+  DEP_FILE = AlgoNotes/Leetcode/Bitree/剑指offer33二叉搜索树的后序遍历序列/CMakeFiles/33.dir/Solution.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6
+  INCLUDES = -I/Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/. -I/Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/Leetcode/. -I/Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/Leetcode/Bitree/. -I/Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/Leetcode/Bitree/剑指offer33二叉搜索树的后序遍历序列/.
+  OBJECT_DIR = AlgoNotes/Leetcode/Bitree/剑指offer33二叉搜索树的后序遍历序列/CMakeFiles/33.dir
+  OBJECT_FILE_DIR = AlgoNotes/Leetcode/Bitree/剑指offer33二叉搜索树的后序遍历序列/CMakeFiles/33.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 33
+
+
+#############################################
+# Link the executable AlgoNotes/Leetcode/Bitree/剑指offer33二叉搜索树的后序遍历序列/33
+
+build AlgoNotes/Leetcode/Bitree/剑指offer33二叉搜索树的后序遍历序列/33: C_EXECUTABLE_LINKER__33_Debug AlgoNotes/Leetcode/Bitree/剑指offer33二叉搜索树的后序遍历序列/CMakeFiles/33.dir/Solution.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6
+  OBJECT_DIR = AlgoNotes/Leetcode/Bitree/剑指offer33二叉搜索树的后序遍历序列/CMakeFiles/33.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = AlgoNotes/Leetcode/Bitree/剑指offer33二叉搜索树的后序遍历序列/33
+  TARGET_PDB = 33.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build AlgoNotes/Leetcode/Bitree/剑指offer33二叉搜索树的后序遍历序列/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/AlgoNotes/Leetcode/Bitree/剑指offer33二叉搜索树的后序遍历序列 && "/Applications/CLion 3.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build AlgoNotes/Leetcode/Bitree/剑指offer33二叉搜索树的后序遍历序列/edit_cache: phony AlgoNotes/Leetcode/Bitree/剑指offer33二叉搜索树的后序遍历序列/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build AlgoNotes/Leetcode/Bitree/剑指offer33二叉搜索树的后序遍历序列/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/AlgoNotes/Leetcode/Bitree/剑指offer33二叉搜索树的后序遍历序列 && "/Applications/CLion 3.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S/Users/vitamink/github_clone/BookNoteByChico -B/Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build AlgoNotes/Leetcode/Bitree/剑指offer33二叉搜索树的后序遍历序列/rebuild_cache: phony AlgoNotes/Leetcode/Bitree/剑指offer33二叉搜索树的后序遍历序列/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/Leetcode/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build AlgoNotes/Leetcode/String/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/AlgoNotes/Leetcode/String && "/Applications/CLion 3.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build AlgoNotes/Leetcode/String/edit_cache: phony AlgoNotes/Leetcode/String/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build AlgoNotes/Leetcode/String/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/AlgoNotes/Leetcode/String && "/Applications/CLion 3.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S/Users/vitamink/github_clone/BookNoteByChico -B/Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build AlgoNotes/Leetcode/String/rebuild_cache: phony AlgoNotes/Leetcode/String/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/Leetcode/String/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1945
+
+
+#############################################
+# Order-only phony target for 1945
+
+build cmake_object_order_depends_target_1945: phony || AlgoNotes/Leetcode/String/1945字符串转换后各位数字之和/CMakeFiles/1945.dir
+
+build AlgoNotes/Leetcode/String/1945字符串转换后各位数字之和/CMakeFiles/1945.dir/Solution.c.o: C_COMPILER__1945_Debug /Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/Leetcode/String/1945字符串转换后各位数字之和/Solution.c || cmake_object_order_depends_target_1945
+  DEP_FILE = AlgoNotes/Leetcode/String/1945字符串转换后各位数字之和/CMakeFiles/1945.dir/Solution.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6
+  INCLUDES = -I/Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/. -I/Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/Leetcode/. -I/Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/Leetcode/String/. -I/Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/Leetcode/String/1945字符串转换后各位数字之和/.
+  OBJECT_DIR = AlgoNotes/Leetcode/String/1945字符串转换后各位数字之和/CMakeFiles/1945.dir
+  OBJECT_FILE_DIR = AlgoNotes/Leetcode/String/1945字符串转换后各位数字之和/CMakeFiles/1945.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1945
+
+
+#############################################
+# Link the executable AlgoNotes/Leetcode/String/1945字符串转换后各位数字之和/1945
+
+build AlgoNotes/Leetcode/String/1945字符串转换后各位数字之和/1945: C_EXECUTABLE_LINKER__1945_Debug AlgoNotes/Leetcode/String/1945字符串转换后各位数字之和/CMakeFiles/1945.dir/Solution.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6
+  OBJECT_DIR = AlgoNotes/Leetcode/String/1945字符串转换后各位数字之和/CMakeFiles/1945.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = AlgoNotes/Leetcode/String/1945字符串转换后各位数字之和/1945
+  TARGET_PDB = 1945.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build AlgoNotes/Leetcode/String/1945字符串转换后各位数字之和/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/AlgoNotes/Leetcode/String/1945字符串转换后各位数字之和 && "/Applications/CLion 3.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build AlgoNotes/Leetcode/String/1945字符串转换后各位数字之和/edit_cache: phony AlgoNotes/Leetcode/String/1945字符串转换后各位数字之和/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build AlgoNotes/Leetcode/String/1945字符串转换后各位数字之和/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/AlgoNotes/Leetcode/String/1945字符串转换后各位数字之和 && "/Applications/CLion 3.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S/Users/vitamink/github_clone/BookNoteByChico -B/Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build AlgoNotes/Leetcode/String/1945字符串转换后各位数字之和/rebuild_cache: phony AlgoNotes/Leetcode/String/1945字符串转换后各位数字之和/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target bubble_sort
+
+
+#############################################
+# Order-only phony target for bubble_sort
+
+build cmake_object_order_depends_target_bubble_sort: phony || AlgoNotes/SORT/CMakeFiles/bubble_sort.dir
+
+build AlgoNotes/SORT/CMakeFiles/bubble_sort.dir/bubble_sort.c++.o: CXX_COMPILER__bubble_sort_Debug /Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/SORT/bubble_sort.c++ || cmake_object_order_depends_target_bubble_sort
+  DEP_FILE = AlgoNotes/SORT/CMakeFiles/bubble_sort.dir/bubble_sort.c++.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6 -std=gnu++17
+  INCLUDES = -I/Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/. -I/Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/SORT/.
+  OBJECT_DIR = AlgoNotes/SORT/CMakeFiles/bubble_sort.dir
+  OBJECT_FILE_DIR = AlgoNotes/SORT/CMakeFiles/bubble_sort.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target bubble_sort
+
+
+#############################################
+# Link the executable AlgoNotes/SORT/bubble_sort
+
+build AlgoNotes/SORT/bubble_sort: CXX_EXECUTABLE_LINKER__bubble_sort_Debug AlgoNotes/SORT/CMakeFiles/bubble_sort.dir/bubble_sort.c++.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6
+  OBJECT_DIR = AlgoNotes/SORT/CMakeFiles/bubble_sort.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = AlgoNotes/SORT/bubble_sort
+  TARGET_PDB = bubble_sort.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target insertion_sort
+
+
+#############################################
+# Order-only phony target for insertion_sort
+
+build cmake_object_order_depends_target_insertion_sort: phony || AlgoNotes/SORT/CMakeFiles/insertion_sort.dir
+
+build AlgoNotes/SORT/CMakeFiles/insertion_sort.dir/insertion_sort.c++.o: CXX_COMPILER__insertion_sort_Debug /Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/SORT/insertion_sort.c++ || cmake_object_order_depends_target_insertion_sort
+  DEP_FILE = AlgoNotes/SORT/CMakeFiles/insertion_sort.dir/insertion_sort.c++.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6 -std=gnu++17
+  INCLUDES = -I/Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/. -I/Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/SORT/.
+  OBJECT_DIR = AlgoNotes/SORT/CMakeFiles/insertion_sort.dir
+  OBJECT_FILE_DIR = AlgoNotes/SORT/CMakeFiles/insertion_sort.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target insertion_sort
+
+
+#############################################
+# Link the executable AlgoNotes/SORT/insertion_sort
+
+build AlgoNotes/SORT/insertion_sort: CXX_EXECUTABLE_LINKER__insertion_sort_Debug AlgoNotes/SORT/CMakeFiles/insertion_sort.dir/insertion_sort.c++.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6
+  OBJECT_DIR = AlgoNotes/SORT/CMakeFiles/insertion_sort.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = AlgoNotes/SORT/insertion_sort
+  TARGET_PDB = insertion_sort.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target merge_sort
+
+
+#############################################
+# Order-only phony target for merge_sort
+
+build cmake_object_order_depends_target_merge_sort: phony || AlgoNotes/SORT/CMakeFiles/merge_sort.dir
+
+build AlgoNotes/SORT/CMakeFiles/merge_sort.dir/merge_sort.c++.o: CXX_COMPILER__merge_sort_Debug /Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/SORT/merge_sort.c++ || cmake_object_order_depends_target_merge_sort
+  DEP_FILE = AlgoNotes/SORT/CMakeFiles/merge_sort.dir/merge_sort.c++.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6 -std=gnu++17
+  INCLUDES = -I/Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/. -I/Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/SORT/.
+  OBJECT_DIR = AlgoNotes/SORT/CMakeFiles/merge_sort.dir
+  OBJECT_FILE_DIR = AlgoNotes/SORT/CMakeFiles/merge_sort.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target merge_sort
+
+
+#############################################
+# Link the executable AlgoNotes/SORT/merge_sort
+
+build AlgoNotes/SORT/merge_sort: CXX_EXECUTABLE_LINKER__merge_sort_Debug AlgoNotes/SORT/CMakeFiles/merge_sort.dir/merge_sort.c++.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6
+  OBJECT_DIR = AlgoNotes/SORT/CMakeFiles/merge_sort.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = AlgoNotes/SORT/merge_sort
+  TARGET_PDB = merge_sort.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target quick_sort
+
+
+#############################################
+# Order-only phony target for quick_sort
+
+build cmake_object_order_depends_target_quick_sort: phony || AlgoNotes/SORT/CMakeFiles/quick_sort.dir
+
+build AlgoNotes/SORT/CMakeFiles/quick_sort.dir/quick_sort.c++.o: CXX_COMPILER__quick_sort_Debug /Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/SORT/quick_sort.c++ || cmake_object_order_depends_target_quick_sort
+  DEP_FILE = AlgoNotes/SORT/CMakeFiles/quick_sort.dir/quick_sort.c++.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6 -std=gnu++17
+  INCLUDES = -I/Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/. -I/Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/SORT/.
+  OBJECT_DIR = AlgoNotes/SORT/CMakeFiles/quick_sort.dir
+  OBJECT_FILE_DIR = AlgoNotes/SORT/CMakeFiles/quick_sort.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target quick_sort
+
+
+#############################################
+# Link the executable AlgoNotes/SORT/quick_sort
+
+build AlgoNotes/SORT/quick_sort: CXX_EXECUTABLE_LINKER__quick_sort_Debug AlgoNotes/SORT/CMakeFiles/quick_sort.dir/quick_sort.c++.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6
+  OBJECT_DIR = AlgoNotes/SORT/CMakeFiles/quick_sort.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = AlgoNotes/SORT/quick_sort
+  TARGET_PDB = quick_sort.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target selection_sort
+
+
+#############################################
+# Order-only phony target for selection_sort
+
+build cmake_object_order_depends_target_selection_sort: phony || AlgoNotes/SORT/CMakeFiles/selection_sort.dir
+
+build AlgoNotes/SORT/CMakeFiles/selection_sort.dir/selection_sort.c++.o: CXX_COMPILER__selection_sort_Debug /Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/SORT/selection_sort.c++ || cmake_object_order_depends_target_selection_sort
+  DEP_FILE = AlgoNotes/SORT/CMakeFiles/selection_sort.dir/selection_sort.c++.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6 -std=gnu++17
+  INCLUDES = -I/Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/. -I/Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/SORT/.
+  OBJECT_DIR = AlgoNotes/SORT/CMakeFiles/selection_sort.dir
+  OBJECT_FILE_DIR = AlgoNotes/SORT/CMakeFiles/selection_sort.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target selection_sort
+
+
+#############################################
+# Link the executable AlgoNotes/SORT/selection_sort
+
+build AlgoNotes/SORT/selection_sort: CXX_EXECUTABLE_LINKER__selection_sort_Debug AlgoNotes/SORT/CMakeFiles/selection_sort.dir/selection_sort.c++.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6
+  OBJECT_DIR = AlgoNotes/SORT/CMakeFiles/selection_sort.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = AlgoNotes/SORT/selection_sort
+  TARGET_PDB = selection_sort.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build AlgoNotes/SORT/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/AlgoNotes/SORT && "/Applications/CLion 3.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build AlgoNotes/SORT/edit_cache: phony AlgoNotes/SORT/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build AlgoNotes/SORT/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/AlgoNotes/SORT && "/Applications/CLion 3.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S/Users/vitamink/github_clone/BookNoteByChico -B/Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build AlgoNotes/SORT/rebuild_cache: phony AlgoNotes/SORT/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target createTree
+
+
+#############################################
+# Order-only phony target for createTree
+
+build cmake_object_order_depends_target_createTree: phony || AlgoNotes/BITREE/CMakeFiles/createTree.dir
+
+build AlgoNotes/BITREE/CMakeFiles/createTree.dir/createTree.c++.o: CXX_COMPILER__createTree_Debug /Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/BITREE/createTree.c++ || cmake_object_order_depends_target_createTree
+  DEP_FILE = AlgoNotes/BITREE/CMakeFiles/createTree.dir/createTree.c++.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6 -std=gnu++17
+  INCLUDES = -I/Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/. -I/Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/BITREE/.
+  OBJECT_DIR = AlgoNotes/BITREE/CMakeFiles/createTree.dir
+  OBJECT_FILE_DIR = AlgoNotes/BITREE/CMakeFiles/createTree.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target createTree
+
+
+#############################################
+# Link the executable AlgoNotes/BITREE/createTree
+
+build AlgoNotes/BITREE/createTree: CXX_EXECUTABLE_LINKER__createTree_Debug AlgoNotes/BITREE/CMakeFiles/createTree.dir/createTree.c++.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6
+  OBJECT_DIR = AlgoNotes/BITREE/CMakeFiles/createTree.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = AlgoNotes/BITREE/createTree
+  TARGET_PDB = createTree.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target traversal
+
+
+#############################################
+# Order-only phony target for traversal
+
+build cmake_object_order_depends_target_traversal: phony || AlgoNotes/BITREE/CMakeFiles/traversal.dir
+
+build AlgoNotes/BITREE/CMakeFiles/traversal.dir/traversal.c.o: C_COMPILER__traversal_Debug /Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/BITREE/traversal.c || cmake_object_order_depends_target_traversal
+  DEP_FILE = AlgoNotes/BITREE/CMakeFiles/traversal.dir/traversal.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6
+  INCLUDES = -I/Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/. -I/Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/BITREE/.
+  OBJECT_DIR = AlgoNotes/BITREE/CMakeFiles/traversal.dir
+  OBJECT_FILE_DIR = AlgoNotes/BITREE/CMakeFiles/traversal.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target traversal
+
+
+#############################################
+# Link the executable AlgoNotes/BITREE/traversal
+
+build AlgoNotes/BITREE/traversal: C_EXECUTABLE_LINKER__traversal_Debug AlgoNotes/BITREE/CMakeFiles/traversal.dir/traversal.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6
+  OBJECT_DIR = AlgoNotes/BITREE/CMakeFiles/traversal.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = AlgoNotes/BITREE/traversal
+  TARGET_PDB = traversal.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build AlgoNotes/BITREE/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/AlgoNotes/BITREE && "/Applications/CLion 3.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build AlgoNotes/BITREE/edit_cache: phony AlgoNotes/BITREE/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build AlgoNotes/BITREE/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/AlgoNotes/BITREE && "/Applications/CLion 3.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S/Users/vitamink/github_clone/BookNoteByChico -B/Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build AlgoNotes/BITREE/rebuild_cache: phony AlgoNotes/BITREE/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+build 1945: phony AlgoNotes/Leetcode/String/1945字符串转换后各位数字之和/1945
+
+build 33: phony AlgoNotes/Leetcode/Bitree/剑指offer33二叉搜索树的后序遍历序列/33
+
+build bubble_sort: phony AlgoNotes/SORT/bubble_sort
+
+build createTree: phony AlgoNotes/BITREE/createTree
+
+build insertion_sort: phony AlgoNotes/SORT/insertion_sort
+
+build merge_sort: phony AlgoNotes/SORT/merge_sort
+
+build quick_sort: phony AlgoNotes/SORT/quick_sort
+
+build selection_sort: phony AlgoNotes/SORT/selection_sort
+
+build traversal: phony AlgoNotes/BITREE/traversal
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug
+
+build all: phony AlgoNotes/all
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/AlgoNotes
+
+build AlgoNotes/all: phony AlgoNotes/Leetcode/all AlgoNotes/SORT/all AlgoNotes/BITREE/all
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/AlgoNotes/BITREE
+
+build AlgoNotes/BITREE/all: phony AlgoNotes/BITREE/createTree AlgoNotes/BITREE/traversal
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/AlgoNotes/Leetcode
+
+build AlgoNotes/Leetcode/all: phony AlgoNotes/Leetcode/Bitree/all AlgoNotes/Leetcode/String/all
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/AlgoNotes/Leetcode/Bitree
+
+build AlgoNotes/Leetcode/Bitree/all: phony AlgoNotes/Leetcode/Bitree/剑指offer33二叉搜索树的后序遍历序列/all
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/AlgoNotes/Leetcode/Bitree/剑指offer33二叉搜索树的后序遍历序列
+
+build AlgoNotes/Leetcode/Bitree/剑指offer33二叉搜索树的后序遍历序列/all: phony AlgoNotes/Leetcode/Bitree/剑指offer33二叉搜索树的后序遍历序列/33
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/AlgoNotes/Leetcode/String
+
+build AlgoNotes/Leetcode/String/all: phony AlgoNotes/Leetcode/String/1945字符串转换后各位数字之和/all
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/AlgoNotes/Leetcode/String/1945字符串转换后各位数字之和
+
+build AlgoNotes/Leetcode/String/1945字符串转换后各位数字之和/all: phony AlgoNotes/Leetcode/String/1945字符串转换后各位数字之和/1945
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/AlgoNotes/SORT
+
+build AlgoNotes/SORT/all: phony AlgoNotes/SORT/bubble_sort AlgoNotes/SORT/insertion_sort AlgoNotes/SORT/merge_sort AlgoNotes/SORT/quick_sort AlgoNotes/SORT/selection_sort
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | ../AlgoNotes/BITREE/CMakeLists.txt ../AlgoNotes/CMakeLists.txt ../AlgoNotes/Leetcode/Bitree/CMakeLists.txt ../AlgoNotes/Leetcode/Bitree/剑指offer33二叉搜索树的后序遍历序列/CMakeLists.txt ../AlgoNotes/Leetcode/CMakeLists.txt ../AlgoNotes/Leetcode/String/1945字符串转换后各位数字之和/CMakeLists.txt ../AlgoNotes/Leetcode/String/CMakeLists.txt ../AlgoNotes/SORT/CMakeLists.txt ../CMakeLists.txt /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build ../AlgoNotes/BITREE/CMakeLists.txt ../AlgoNotes/CMakeLists.txt ../AlgoNotes/Leetcode/Bitree/CMakeLists.txt ../AlgoNotes/Leetcode/Bitree/剑指offer33二叉搜索树的后序遍历序列/CMakeLists.txt ../AlgoNotes/Leetcode/CMakeLists.txt ../AlgoNotes/Leetcode/String/1945字符串转换后各位数字之和/CMakeLists.txt ../AlgoNotes/Leetcode/String/CMakeLists.txt ../AlgoNotes/SORT/CMakeLists.txt ../CMakeLists.txt /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all
