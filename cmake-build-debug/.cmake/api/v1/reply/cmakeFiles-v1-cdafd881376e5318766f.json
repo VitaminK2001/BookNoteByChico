@@ -165,10 +165,19 @@
 			"path" : "AlgoNotes/Leetcode/String/1945\u5b57\u7b26\u4e32\u8f6c\u6362\u540e\u5404\u4f4d\u6570\u5b57\u4e4b\u548c/CMakeLists.txt"
 		},
 		{
+			"path" : "AlgoNotes/Leetcode/String/DynamicProgram/CMakeLists.txt"
+		},
+		{
 			"path" : "AlgoNotes/SORT/CMakeLists.txt"
 		},
 		{
 			"path" : "AlgoNotes/BITREE/CMakeLists.txt"
+		},
+		{
+			"path" : "BookNotes/CMakeLists.txt"
+		},
+		{
+			"path" : "BookNotes/CPointer/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

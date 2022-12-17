@@ -14,6 +14,9 @@
 /Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/AlgoNotes/Leetcode/String/1945字符串转换后各位数字之和/CMakeFiles/1945.dir
 /Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/AlgoNotes/Leetcode/String/1945字符串转换后各位数字之和/CMakeFiles/edit_cache.dir
 /Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/AlgoNotes/Leetcode/String/1945字符串转换后各位数字之和/CMakeFiles/rebuild_cache.dir
+/Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/AlgoNotes/Leetcode/String/DynamicProgram/CMakeFiles/5.dir
+/Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/AlgoNotes/Leetcode/String/DynamicProgram/CMakeFiles/edit_cache.dir
+/Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/AlgoNotes/Leetcode/String/DynamicProgram/CMakeFiles/rebuild_cache.dir
 /Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/AlgoNotes/SORT/CMakeFiles/bubble_sort.dir
 /Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/AlgoNotes/SORT/CMakeFiles/insertion_sort.dir
 /Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/AlgoNotes/SORT/CMakeFiles/merge_sort.dir
@@ -25,3 +28,8 @@
 /Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/AlgoNotes/BITREE/CMakeFiles/traversal.dir
 /Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/AlgoNotes/BITREE/CMakeFiles/edit_cache.dir
 /Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/AlgoNotes/BITREE/CMakeFiles/rebuild_cache.dir
+/Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/BookNotes/CMakeFiles/edit_cache.dir
+/Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/BookNotes/CMakeFiles/rebuild_cache.dir
+/Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/BookNotes/CPointer/CMakeFiles/10.dir
+/Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/BookNotes/CPointer/CMakeFiles/edit_cache.dir
+/Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/BookNotes/CPointer/CMakeFiles/rebuild_cache.dir

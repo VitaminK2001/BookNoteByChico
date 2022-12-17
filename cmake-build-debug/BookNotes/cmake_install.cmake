@@ -1,4 +1,4 @@
-# Install script for directory: /Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/Leetcode/String
+# Install script for directory: /Users/vitamink/github_clone/BookNoteByChico/BookNotes
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,11 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/AlgoNotes/Leetcode/String/1945字符串转换后各位数字之和/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
-  include("/Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/AlgoNotes/Leetcode/String/DynamicProgram/cmake_install.cmake")
+  include("/Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/BookNotes/CPointer/cmake_install.cmake")
 endif()
 

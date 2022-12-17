@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "AlgoNotes/SORT/bubble_sort"
+			"path" : "AlgoNotes/Leetcode/String/DynamicProgram/5"
 		}
 	],
 	"backtrace" : 1,
@@ -15,8 +15,10 @@
 		],
 		"files" : 
 		[
-			"AlgoNotes/SORT/CMakeLists.txt",
-			"AlgoNotes/CMakeLists.txt"
+			"AlgoNotes/Leetcode/String/DynamicProgram/CMakeLists.txt",
+			"AlgoNotes/CMakeLists.txt",
+			"AlgoNotes/Leetcode/CMakeLists.txt",
+			"AlgoNotes/Leetcode/String/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -26,7 +28,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 3,
+				"line" : 2,
 				"parent" : 0
 			},
 			{
@@ -37,6 +39,24 @@
 				"file" : 1,
 				"line" : 1,
 				"parent" : 2
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 1,
+				"file" : 2,
+				"line" : 1,
+				"parent" : 4
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 1,
+				"parent" : 6
 			},
 			{
 				"command" : 1,
@@ -53,9 +73,6 @@
 			[
 				{
 					"fragment" : "-g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6"
-				},
-				{
-					"fragment" : "-std=gnu++17"
 				}
 			],
 			"includes" : 
@@ -65,26 +82,26 @@
 					"path" : "/Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/."
 				},
 				{
-					"backtrace" : 4,
-					"path" : "/Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/SORT/."
+					"backtrace" : 5,
+					"path" : "/Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/Leetcode/."
+				},
+				{
+					"backtrace" : 7,
+					"path" : "/Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/Leetcode/String/."
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/Leetcode/String/DynamicProgram/."
 				}
 			],
-			"language" : "CXX",
-			"languageStandard" : 
-			{
-				"backtraces" : 
-				[
-					1
-				],
-				"standard" : "17"
-			},
+			"language" : "C",
 			"sourceIndexes" : 
 			[
 				0
 			]
 		}
 	],
-	"id" : "bubble_sort::@9eab3dc3f8e4c44b924a",
+	"id" : "5::@69bd44a27a1b2d611447",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -98,14 +115,14 @@
 				"role" : "flags"
 			}
 		],
-		"language" : "CXX"
+		"language" : "C"
 	},
-	"name" : "bubble_sort",
-	"nameOnDisk" : "bubble_sort",
+	"name" : "5",
+	"nameOnDisk" : "5",
 	"paths" : 
 	{
-		"build" : "AlgoNotes/SORT",
-		"source" : "AlgoNotes/SORT"
+		"build" : "AlgoNotes/Leetcode/String/DynamicProgram",
+		"source" : "AlgoNotes/Leetcode/String/DynamicProgram"
 	},
 	"sourceGroups" : 
 	[
@@ -122,7 +139,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "AlgoNotes/SORT/bubble_sort.c++",
+			"path" : "AlgoNotes/Leetcode/String/DynamicProgram/5\u6700\u957f\u56de\u6587\u5b50\u4e32.c",
 			"sourceGroupIndex" : 0
 		}
 	],

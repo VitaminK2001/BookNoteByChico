@@ -294,6 +294,66 @@ build AlgoNotes/Leetcode/String/1945字符串转换后各位数字之和/rebuild
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
+# /Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/Leetcode/String/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 5
+
+
+#############################################
+# Order-only phony target for 5
+
+build cmake_object_order_depends_target_5: phony || AlgoNotes/Leetcode/String/DynamicProgram/CMakeFiles/5.dir
+
+build AlgoNotes/Leetcode/String/DynamicProgram/CMakeFiles/5.dir/5最长回文子串.c.o: C_COMPILER__5_Debug /Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/Leetcode/String/DynamicProgram/5最长回文子串.c || cmake_object_order_depends_target_5
+  DEP_FILE = AlgoNotes/Leetcode/String/DynamicProgram/CMakeFiles/5.dir/5最长回文子串.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6
+  INCLUDES = -I/Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/. -I/Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/Leetcode/. -I/Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/Leetcode/String/. -I/Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/Leetcode/String/DynamicProgram/.
+  OBJECT_DIR = AlgoNotes/Leetcode/String/DynamicProgram/CMakeFiles/5.dir
+  OBJECT_FILE_DIR = AlgoNotes/Leetcode/String/DynamicProgram/CMakeFiles/5.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 5
+
+
+#############################################
+# Link the executable AlgoNotes/Leetcode/String/DynamicProgram/5
+
+build AlgoNotes/Leetcode/String/DynamicProgram/5: C_EXECUTABLE_LINKER__5_Debug AlgoNotes/Leetcode/String/DynamicProgram/CMakeFiles/5.dir/5最长回文子串.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6
+  OBJECT_DIR = AlgoNotes/Leetcode/String/DynamicProgram/CMakeFiles/5.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = AlgoNotes/Leetcode/String/DynamicProgram/5
+  TARGET_PDB = 5.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build AlgoNotes/Leetcode/String/DynamicProgram/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/AlgoNotes/Leetcode/String/DynamicProgram && "/Applications/CLion 3.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build AlgoNotes/Leetcode/String/DynamicProgram/edit_cache: phony AlgoNotes/Leetcode/String/DynamicProgram/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build AlgoNotes/Leetcode/String/DynamicProgram/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/AlgoNotes/Leetcode/String/DynamicProgram && "/Applications/CLion 3.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S/Users/vitamink/github_clone/BookNoteByChico -B/Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build AlgoNotes/Leetcode/String/DynamicProgram/rebuild_cache: phony AlgoNotes/Leetcode/String/DynamicProgram/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
 # /Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/CMakeLists.txt
 # =============================================================================
 
@@ -313,6 +373,13 @@ build AlgoNotes/SORT/CMakeFiles/bubble_sort.dir/bubble_sort.c++.o: CXX_COMPILER_
   OBJECT_DIR = AlgoNotes/SORT/CMakeFiles/bubble_sort.dir
   OBJECT_FILE_DIR = AlgoNotes/SORT/CMakeFiles/bubble_sort.dir
 
+build AlgoNotes/SORT/CMakeFiles/bubble_sort.dir/__/__/BookNotes/CPointer/计算指针数组的大小以及sizeof对指针和数组的区别.c.o: C_COMPILER__bubble_sort_Debug /Users/vitamink/github_clone/BookNoteByChico/BookNotes/CPointer/计算指针数组的大小以及sizeof对指针和数组的区别.c || cmake_object_order_depends_target_bubble_sort
+  DEP_FILE = AlgoNotes/SORT/CMakeFiles/bubble_sort.dir/__/__/BookNotes/CPointer/计算指针数组的大小以及sizeof对指针和数组的区别.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6
+  INCLUDES = -I/Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/. -I/Users/vitamink/github_clone/BookNoteByChico/AlgoNotes/SORT/.
+  OBJECT_DIR = AlgoNotes/SORT/CMakeFiles/bubble_sort.dir
+  OBJECT_FILE_DIR = AlgoNotes/SORT/CMakeFiles/bubble_sort.dir/__/__/BookNotes/CPointer
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target bubble_sort
@@ -321,7 +388,7 @@ build AlgoNotes/SORT/CMakeFiles/bubble_sort.dir/bubble_sort.c++.o: CXX_COMPILER_
 #############################################
 # Link the executable AlgoNotes/SORT/bubble_sort
 
-build AlgoNotes/SORT/bubble_sort: CXX_EXECUTABLE_LINKER__bubble_sort_Debug AlgoNotes/SORT/CMakeFiles/bubble_sort.dir/bubble_sort.c++.o
+build AlgoNotes/SORT/bubble_sort: CXX_EXECUTABLE_LINKER__bubble_sort_Debug AlgoNotes/SORT/CMakeFiles/bubble_sort.dir/bubble_sort.c++.o AlgoNotes/SORT/CMakeFiles/bubble_sort.dir/__/__/BookNotes/CPointer/计算指针数组的大小以及sizeof对指针和数组的区别.c.o
   FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6
   OBJECT_DIR = AlgoNotes/SORT/CMakeFiles/bubble_sort.dir
   POST_BUILD = :
@@ -573,11 +640,103 @@ build AlgoNotes/BITREE/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build AlgoNotes/BITREE/rebuild_cache: phony AlgoNotes/BITREE/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/vitamink/github_clone/BookNoteByChico/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build BookNotes/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/BookNotes && "/Applications/CLion 3.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build BookNotes/edit_cache: phony BookNotes/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build BookNotes/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/BookNotes && "/Applications/CLion 3.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S/Users/vitamink/github_clone/BookNoteByChico -B/Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build BookNotes/rebuild_cache: phony BookNotes/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# /Users/vitamink/github_clone/BookNoteByChico/BookNotes/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 10
+
+
+#############################################
+# Order-only phony target for 10
+
+build cmake_object_order_depends_target_10: phony || BookNotes/CPointer/CMakeFiles/10.dir
+
+build BookNotes/CPointer/CMakeFiles/10.dir/计算指针数组的大小以及sizeof对指针和数组的区别.c.o: C_COMPILER__10_Debug /Users/vitamink/github_clone/BookNoteByChico/BookNotes/CPointer/计算指针数组的大小以及sizeof对指针和数组的区别.c || cmake_object_order_depends_target_10
+  DEP_FILE = BookNotes/CPointer/CMakeFiles/10.dir/计算指针数组的大小以及sizeof对指针和数组的区别.c.o.d
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6
+  INCLUDES = -I/Users/vitamink/github_clone/BookNoteByChico/BookNotes/. -I/Users/vitamink/github_clone/BookNoteByChico/BookNotes/CPointer/.
+  OBJECT_DIR = BookNotes/CPointer/CMakeFiles/10.dir
+  OBJECT_FILE_DIR = BookNotes/CPointer/CMakeFiles/10.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 10
+
+
+#############################################
+# Link the executable BookNotes/CPointer/10
+
+build BookNotes/CPointer/10: C_EXECUTABLE_LINKER__10_Debug BookNotes/CPointer/CMakeFiles/10.dir/计算指针数组的大小以及sizeof对指针和数组的区别.c.o
+  FLAGS = -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.0.sdk -mmacosx-version-min=12.6
+  OBJECT_DIR = BookNotes/CPointer/CMakeFiles/10.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = BookNotes/CPointer/10
+  TARGET_PDB = 10.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build BookNotes/CPointer/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/BookNotes/CPointer && "/Applications/CLion 3.app/Contents/bin/cmake/mac/bin/cmake" -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build BookNotes/CPointer/edit_cache: phony BookNotes/CPointer/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build BookNotes/CPointer/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/BookNotes/CPointer && "/Applications/CLion 3.app/Contents/bin/cmake/mac/bin/cmake" --regenerate-during-build -S/Users/vitamink/github_clone/BookNoteByChico -B/Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build BookNotes/CPointer/rebuild_cache: phony BookNotes/CPointer/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
+
+build 10: phony BookNotes/CPointer/10
 
 build 1945: phony AlgoNotes/Leetcode/String/1945字符串转换后各位数字之和/1945
 
 build 33: phony AlgoNotes/Leetcode/Bitree/剑指offer33二叉搜索树的后序遍历序列/33
+
+build 5: phony AlgoNotes/Leetcode/String/DynamicProgram/5
 
 build bubble_sort: phony AlgoNotes/SORT/bubble_sort
 
@@ -601,7 +760,7 @@ build traversal: phony AlgoNotes/BITREE/traversal
 #############################################
 # Folder: /Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug
 
-build all: phony AlgoNotes/all
+build all: phony AlgoNotes/all BookNotes/all
 
 # =============================================================================
 
@@ -643,7 +802,7 @@ build AlgoNotes/Leetcode/Bitree/剑指offer33二叉搜索树的后序遍历序�
 #############################################
 # Folder: /Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/AlgoNotes/Leetcode/String
 
-build AlgoNotes/Leetcode/String/all: phony AlgoNotes/Leetcode/String/1945字符串转换后各位数字之和/all
+build AlgoNotes/Leetcode/String/all: phony AlgoNotes/Leetcode/String/1945字符串转换后各位数字之和/all AlgoNotes/Leetcode/String/DynamicProgram/all
 
 # =============================================================================
 
@@ -655,9 +814,30 @@ build AlgoNotes/Leetcode/String/1945字符串转换后各位数字之和/all: ph
 # =============================================================================
 
 #############################################
+# Folder: /Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/AlgoNotes/Leetcode/String/DynamicProgram
+
+build AlgoNotes/Leetcode/String/DynamicProgram/all: phony AlgoNotes/Leetcode/String/DynamicProgram/5
+
+# =============================================================================
+
+#############################################
 # Folder: /Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/AlgoNotes/SORT
 
 build AlgoNotes/SORT/all: phony AlgoNotes/SORT/bubble_sort AlgoNotes/SORT/insertion_sort AlgoNotes/SORT/merge_sort AlgoNotes/SORT/quick_sort AlgoNotes/SORT/selection_sort
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/BookNotes
+
+build BookNotes/all: phony BookNotes/CPointer/all
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/vitamink/github_clone/BookNoteByChico/cmake-build-debug/BookNotes/CPointer
+
+build BookNotes/CPointer/all: phony BookNotes/CPointer/10
 
 # =============================================================================
 # Built-in targets
@@ -666,14 +846,14 @@ build AlgoNotes/SORT/all: phony AlgoNotes/SORT/bubble_sort AlgoNotes/SORT/insert
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | ../AlgoNotes/BITREE/CMakeLists.txt ../AlgoNotes/CMakeLists.txt ../AlgoNotes/Leetcode/Bitree/CMakeLists.txt ../AlgoNotes/Leetcode/Bitree/剑指offer33二叉搜索树的后序遍历序列/CMakeLists.txt ../AlgoNotes/Leetcode/CMakeLists.txt ../AlgoNotes/Leetcode/String/1945字符串转换后各位数字之和/CMakeLists.txt ../AlgoNotes/Leetcode/String/CMakeLists.txt ../AlgoNotes/SORT/CMakeLists.txt ../CMakeLists.txt /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | ../AlgoNotes/BITREE/CMakeLists.txt ../AlgoNotes/CMakeLists.txt ../AlgoNotes/Leetcode/Bitree/CMakeLists.txt ../AlgoNotes/Leetcode/Bitree/剑指offer33二叉搜索树的后序遍历序列/CMakeLists.txt ../AlgoNotes/Leetcode/CMakeLists.txt ../AlgoNotes/Leetcode/String/1945字符串转换后各位数字之和/CMakeLists.txt ../AlgoNotes/Leetcode/String/CMakeLists.txt ../AlgoNotes/Leetcode/String/DynamicProgram/CMakeLists.txt ../AlgoNotes/SORT/CMakeLists.txt ../BookNotes/CMakeLists.txt ../BookNotes/CPointer/CMakeLists.txt ../CMakeLists.txt /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build ../AlgoNotes/BITREE/CMakeLists.txt ../AlgoNotes/CMakeLists.txt ../AlgoNotes/Leetcode/Bitree/CMakeLists.txt ../AlgoNotes/Leetcode/Bitree/剑指offer33二叉搜索树的后序遍历序列/CMakeLists.txt ../AlgoNotes/Leetcode/CMakeLists.txt ../AlgoNotes/Leetcode/String/1945字符串转换后各位数字之和/CMakeLists.txt ../AlgoNotes/Leetcode/String/CMakeLists.txt ../AlgoNotes/SORT/CMakeLists.txt ../CMakeLists.txt /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+build ../AlgoNotes/BITREE/CMakeLists.txt ../AlgoNotes/CMakeLists.txt ../AlgoNotes/Leetcode/Bitree/CMakeLists.txt ../AlgoNotes/Leetcode/Bitree/剑指offer33二叉搜索树的后序遍历序列/CMakeLists.txt ../AlgoNotes/Leetcode/CMakeLists.txt ../AlgoNotes/Leetcode/String/1945字符串转换后各位数字之和/CMakeLists.txt ../AlgoNotes/Leetcode/String/CMakeLists.txt ../AlgoNotes/Leetcode/String/DynamicProgram/CMakeLists.txt ../AlgoNotes/SORT/CMakeLists.txt ../BookNotes/CMakeLists.txt ../BookNotes/CPointer/CMakeLists.txt ../CMakeLists.txt /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion$ 3.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
 
 
 #############################################

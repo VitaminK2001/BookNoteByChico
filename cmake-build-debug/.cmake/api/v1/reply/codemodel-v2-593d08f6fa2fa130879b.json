@@ -8,7 +8,8 @@
 					"build" : ".",
 					"childIndexes" : 
 					[
-						1
+						1,
+						10
 					],
 					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
 					"minimumCMakeVersion" : 
@@ -23,8 +24,8 @@
 					"childIndexes" : 
 					[
 						2,
-						7,
-						8
+						8,
+						9
 					],
 					"jsonFile" : "directory-AlgoNotes-Debug-778ea25dbfaf6d244dab.json",
 					"minimumCMakeVersion" : 
@@ -78,14 +79,15 @@
 					"source" : "AlgoNotes/Leetcode/Bitree/\u5251\u6307offer33\u4e8c\u53c9\u641c\u7d22\u6811\u7684\u540e\u5e8f\u904d\u5386\u5e8f\u5217",
 					"targetIndexes" : 
 					[
-						1
+						2
 					]
 				},
 				{
 					"build" : "AlgoNotes/Leetcode/String",
 					"childIndexes" : 
 					[
-						6
+						6,
+						7
 					],
 					"jsonFile" : "directory-AlgoNotes.Leetcode.String-Debug-e892a168795b519c1db5.json",
 					"minimumCMakeVersion" : 
@@ -108,7 +110,22 @@
 					"source" : "AlgoNotes/Leetcode/String/1945\u5b57\u7b26\u4e32\u8f6c\u6362\u540e\u5404\u4f4d\u6570\u5b57\u4e4b\u548c",
 					"targetIndexes" : 
 					[
-						0
+						1
+					]
+				},
+				{
+					"build" : "AlgoNotes/Leetcode/String/DynamicProgram",
+					"jsonFile" : "directory-AlgoNotes.Leetcode.String.DynamicProgram-Debug-b9e8ed4d233a2782e28f.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 0,
+					"source" : "AlgoNotes/Leetcode/String/DynamicProgram",
+					"targetIndexes" : 
+					[
+						3
 					]
 				},
 				{
@@ -123,11 +140,11 @@
 					"source" : "AlgoNotes/SORT",
 					"targetIndexes" : 
 					[
-						2,
 						4,
-						5,
 						6,
-						7
+						7,
+						8,
+						9
 					]
 				},
 				{
@@ -142,8 +159,38 @@
 					"source" : "AlgoNotes/BITREE",
 					"targetIndexes" : 
 					[
-						3,
-						8
+						5,
+						10
+					]
+				},
+				{
+					"build" : "BookNotes",
+					"childIndexes" : 
+					[
+						11
+					],
+					"jsonFile" : "directory-BookNotes-Debug-0dc9f0fcee081f76fc24.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "BookNotes"
+				},
+				{
+					"build" : "BookNotes/CPointer",
+					"jsonFile" : "directory-BookNotes.CPointer-Debug-c4ce4c61ed7512748097.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 0,
+					"source" : "BookNotes/CPointer",
+					"targetIndexes" : 
+					[
+						0
 					]
 				}
 			],
@@ -161,7 +208,10 @@
 						5,
 						6,
 						7,
-						8
+						8,
+						9,
+						10,
+						11
 					],
 					"name" : "KY_Bitree",
 					"targetIndexes" : 
@@ -174,12 +224,21 @@
 						5,
 						6,
 						7,
-						8
+						8,
+						9,
+						10
 					]
 				}
 			],
 			"targets" : 
 			[
+				{
+					"directoryIndex" : 11,
+					"id" : "10::@74b8eb1564e505bf6b22",
+					"jsonFile" : "target-10-Debug-0622e7188a05ef3b8e61.json",
+					"name" : "10",
+					"projectIndex" : 0
+				},
 				{
 					"directoryIndex" : 6,
 					"id" : "1945::@807e1a967bb4a8527318",
@@ -196,48 +255,55 @@
 				},
 				{
 					"directoryIndex" : 7,
-					"id" : "bubble_sort::@9eab3dc3f8e4c44b924a",
-					"jsonFile" : "target-bubble_sort-Debug-a93be842f3d4a6cce226.json",
-					"name" : "bubble_sort",
+					"id" : "5::@69bd44a27a1b2d611447",
+					"jsonFile" : "target-5-Debug-57a5e1528eb7e79b2a9a.json",
+					"name" : "5",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 8,
+					"id" : "bubble_sort::@9eab3dc3f8e4c44b924a",
+					"jsonFile" : "target-bubble_sort-Debug-ffceac4151932ef2fcf0.json",
+					"name" : "bubble_sort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
 					"id" : "createTree::@a219f7a42d9a50c3d9c0",
 					"jsonFile" : "target-createTree-Debug-bd52b32f33e1f83538bb.json",
 					"name" : "createTree",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 7,
+					"directoryIndex" : 8,
 					"id" : "insertion_sort::@9eab3dc3f8e4c44b924a",
 					"jsonFile" : "target-insertion_sort-Debug-82491a56963c0ade38df.json",
 					"name" : "insertion_sort",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 7,
+					"directoryIndex" : 8,
 					"id" : "merge_sort::@9eab3dc3f8e4c44b924a",
 					"jsonFile" : "target-merge_sort-Debug-366952f9be9bf20efd8b.json",
 					"name" : "merge_sort",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 7,
+					"directoryIndex" : 8,
 					"id" : "quick_sort::@9eab3dc3f8e4c44b924a",
 					"jsonFile" : "target-quick_sort-Debug-ba9c2c7d795ded5c7c5d.json",
 					"name" : "quick_sort",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 7,
+					"directoryIndex" : 8,
 					"id" : "selection_sort::@9eab3dc3f8e4c44b924a",
 					"jsonFile" : "target-selection_sort-Debug-36968be8cd4a523028a7.json",
 					"name" : "selection_sort",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 8,
+					"directoryIndex" : 9,
 					"id" : "traversal::@a219f7a42d9a50c3d9c0",
 					"jsonFile" : "target-traversal-Debug-293747d46401ddce8b13.json",
 					"name" : "traversal",
