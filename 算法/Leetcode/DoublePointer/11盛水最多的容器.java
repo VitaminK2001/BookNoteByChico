@@ -1,3 +1,4 @@
+package 算法.Leetcode.DoublePointer;
 class Solution {
     public int maxArea(int[] height) {
         // int maxheight = height[0]; //水桶原理
