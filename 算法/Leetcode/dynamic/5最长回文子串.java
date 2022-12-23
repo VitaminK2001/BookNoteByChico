@@ -1,4 +1,4 @@
-package 算法.Leetcode.DynamicProgram;
+package 算法.Leetcode.dynamic;
 
 class Solution {
     public String longestPalindrome(String s){

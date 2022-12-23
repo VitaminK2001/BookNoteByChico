@@ -1,4 +1,4 @@
-package 算法.Leetcode.LinkList;
+package 算法.Leetcode.linklist;
 
 import java.util.LinkedList;
 

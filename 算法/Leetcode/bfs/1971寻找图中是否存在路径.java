@@ -1,4 +1,4 @@
-package 算法.Leetcode.BreadSearch;
+package 算法.Leetcode.bfs;
 
 import java.util.ArrayDeque;
 import java.util.ArrayList;

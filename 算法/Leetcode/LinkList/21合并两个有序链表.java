@@ -1,4 +1,4 @@
-package 算法.Leetcode.LinkList;
+package 算法.Leetcode.linklist;
 class ListNode{
     int val;
     ListNode next;

@@ -1,4 +1,4 @@
-package 算法.Leetcode.DoublePointer;
+package 算法.Leetcode.double_pointer;
 
 import java.util.ArrayList;
 import java.util.Arrays;

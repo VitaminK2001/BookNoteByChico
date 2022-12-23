@@ -1,4 +1,4 @@
-package 算法.Leetcode.BianarySearch;
+package 算法.Leetcode.binary_search;
 // https://www.geekxh.com/1.99.%E5%85%B6%E4%BB%96%E8%A1%A5%E5%85%85%E9%A2%98%E7%9B%AE/21.html#_03%E3%80%81%E8%AF%81%E6%98%8E%E8%BF%87%E7%A8%8B
 class Solution {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
