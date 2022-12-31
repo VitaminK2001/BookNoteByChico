@@ -1,3 +1,4 @@
+#include <iostream>
 using namespace std;
 
 struct ListNode{
@@ -19,7 +20,7 @@ public:
             return head;
         }
         if(head->next == tail){
-            head->next == nullptr;
+            head->next = nullptr;
             return head;
         }
         ListNode *fast = head, *slow = head;

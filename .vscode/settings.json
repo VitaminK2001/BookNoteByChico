@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "string.h": "c",
+        "iostream": "cpp",
+        "iosfwd": "cpp",
+        "stack": "cpp",
+        "map": "cpp"
+    }
+}
