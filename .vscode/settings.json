@@ -19,5 +19,6 @@
         "unordered_map": "cpp",
         "unordered_set": "cpp",
         "ostream": "cpp"
-    }
+    },
+    "python.analysis.typeCheckingMode": "off"
 }
