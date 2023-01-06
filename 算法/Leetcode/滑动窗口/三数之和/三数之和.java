@@ -1,10 +1,11 @@
-package 算法.Leetcode.double_pointer;
+package 算法.Leetcode.滑动窗口.三数之和;
 
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
 class Solution{
+    // 基础的枚举方法
     public List<List<Integer>> threeSum(int[] nums) {
         Arrays.sort(nums);
         List<List<Integer>> res = new ArrayList<>();
