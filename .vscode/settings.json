@@ -18,7 +18,8 @@
         "string_view": "cpp",
         "unordered_map": "cpp",
         "unordered_set": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "queue": "cpp"
     },
     "python.analysis.typeCheckingMode": "off"
 }
