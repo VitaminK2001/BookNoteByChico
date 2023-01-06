@@ -1,4 +1,4 @@
-package 算法.Leetcode.dfs;
+package 算法.Leetcode.深度搜索;
 
 import java.util.ArrayList;
 import java.util.List;
