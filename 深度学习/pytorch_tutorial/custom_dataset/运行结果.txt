@@ -1,0 +1,35 @@
+(base) vitamink@VitaminkdeMBP BookNoteByChico % /Users/vitamink/opt/anaconda3/bin/python "/Users/vitamink/github_clone/BookNoteByChico/深度学习/pytorch_tutor
+ial/custom_dataset/ custom_dataset2.py"
+Cost at epoch 0 is 0.7110967040061951
+Cost at epoch 1 is 0.6993749737739563
+Cost at epoch 2 is 0.5084570646286011
+Cost at epoch 3 is 0.48997482657432556
+Cost at epoch 4 is 0.35889795422554016
+Cost at epoch 5 is 0.3316076397895813
+Cost at epoch 6 is 0.24654407799243927
+Cost at epoch 7 is 0.19234555959701538
+Cost at epoch 8 is 0.2091054916381836
+Cost at epoch 9 is 0.13818107545375824
+Checking accuracy on Training Set
+Got 5 / 5 with accuracy 100.00
+Checking accuracy on Test Set
+Got 3 / 5 with accuracy 60.00
+
+
+(base) vitamink@VitaminkdeMBP BookNoteByChico % /Users/vitamink/opt/anaconda3/bin/python "/Users/vitamink/github_clone/BookNoteByChico/深度学习/pytorch_tu
+torial/custom_dataset/ custom_dataset2.py"
+Cost at epoch 0 is 0.744559645652771
+Cost at epoch 1 is 0.6907964944839478
+Cost at epoch 2 is 0.6736540794372559
+Cost at epoch 3 is 0.6727942228317261
+Cost at epoch 4 is 0.5698999166488647
+Cost at epoch 5 is 0.5572930574417114
+Cost at epoch 6 is 0.638152539730072
+Cost at epoch 7 is 0.5547358393669128
+Cost at epoch 8 is 0.5475693941116333
+Cost at epoch 9 is 0.5340244174003601
+Checking accuracy on Training Set
+Got 4 / 5 with accuracy 80.00
+Checking accuracy on Test Set
+Got 5 / 5 with accuracy 100.00
+(base) vitamink@VitaminkdeMBP BookNoteByChico % 
