@@ -1,5 +1,4 @@
 import java.util.ArrayList;
-import java.util.Date;
 
 class GenericStack<E> {
     private ArrayList<E> list = new ArrayList<>();
