@@ -1,3 +1,6 @@
+package 学习笔记.Java.泛型.泛型类泛型接口.使用泛型;
+
+
 import java.util.ArrayList;
 
 class GenericStack<E> {
@@ -23,5 +26,4 @@ class GenericStack<E> {
     public String toString(){
         return "stack : " + list.toString();
     }
-    // 字体
 }
