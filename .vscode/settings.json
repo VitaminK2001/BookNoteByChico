@@ -3,7 +3,10 @@
         "queue": "cpp",
         "stack": "cpp",
         "__split_buffer": "cpp",
-        "deque": "cpp"
+        "deque": "cpp",
+        "string": "cpp",
+        "__config": "cpp",
+        "iosfwd": "cpp"
     },
     "java.debug.settings.onBuildFailureProceed": true,
     "C_Cpp.errorSquiggles": "enabled"
