@@ -4,15 +4,15 @@
 #include <string.h>
 using namespace std;
 
-void display(int* arr, int n){
+void display(int *arr, int n){
     for(int i = 0; i < n; ++i){
         cout << arr[i] << " ";
     }
     cout << endl;
 }
 void quicksort(int* arr, int l, int r){
-    if(l < r){ //注意l要在小于r的时候才有必要排序 l == r 时就是一个元素，没有必要排序
-        int j = r, i = l;
+    if(l < r){ // 注意l要在小于r的时候才有必要排序 l == r 时就是一个元素，没有必要排序
+        int i = l, j = r;
         int key = arr[i];
         while(i < j){
             while(j > i && arr[j] > key){
