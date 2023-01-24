@@ -6,7 +6,8 @@
         "deque": "cpp",
         "string": "cpp",
         "__config": "cpp",
-        "iosfwd": "cpp"
+        "iosfwd": "cpp",
+        "iostream": "cpp"
     },
     "java.debug.settings.onBuildFailureProceed": true,
     "C_Cpp.errorSquiggles": "enabled"
