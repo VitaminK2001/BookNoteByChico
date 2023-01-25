@@ -1,3 +1,4 @@
+// https://leetcode.cn/problems/trapping-rain-water/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-w-8/
 #include <iostream>
 #include <vector>
 using namespace std;
@@ -10,7 +11,6 @@ public:
 	// 如果height[i]小于层数 而且已经开始更新 则 temp++
 	// 如果height[i]大于等于层数 则ans += temp temp = 0;
 	// 两层for 循环超时
-	// https://leetcode.cn/problems/trapping-rain-water/solution/xiang-xi-tong-su-de-si-lu-fen-xi-duo-jie-fa-by-w-8/
     int trap(vector<int>& height) {
     	int sum = 0;
     	int top = getMax(height);
