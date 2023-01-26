@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 int main() {
@@ -29,4 +30,9 @@ int main() {
     // 但是可以通过指针改变值
     (*q)++;
     printf("%d\n", b[0]); // 2
+
+    string s = "abc";
+    printf("%d", s == "abc");
+
+    
 }
