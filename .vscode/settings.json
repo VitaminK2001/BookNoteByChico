@@ -8,7 +8,8 @@
         "__config": "cpp",
         "iosfwd": "cpp",
         "iostream": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "vector": "cpp"
     },
     "java.debug.settings.onBuildFailureProceed": true,
     "C_Cpp.errorSquiggles": "enabled"
