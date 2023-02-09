@@ -9,7 +9,9 @@
         "iosfwd": "cpp",
         "iostream": "cpp",
         "ostream": "cpp",
-        "vector": "cpp"
+        "vector": "cpp",
+        "filesystem": "cpp",
+        "istream": "cpp"
     },
     "java.debug.settings.onBuildFailureProceed": true,
     "C_Cpp.errorSquiggles": "enabled"
