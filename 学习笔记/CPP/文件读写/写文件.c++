@@ -19,7 +19,7 @@ int main(){
     fout2 << "this is right\n";
     
 
-    ofstream fout3("3.txt", ios::app);
+    ofstream fout3("3.txt", ios::app); // 可以省略ios::out
     fout3 << "this can append";
 
     
@@ -32,5 +32,4 @@ int main(){
     fout2.close();
     fout3.close();
     cout <<  "done\n";  
-
 }
