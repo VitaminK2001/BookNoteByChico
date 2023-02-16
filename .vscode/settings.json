@@ -11,7 +11,15 @@
         "ostream": "cpp",
         "vector": "cpp",
         "filesystem": "cpp",
-        "istream": "cpp"
+        "istream": "cpp",
+        "__hash_table": "cpp",
+        "__tree": "cpp",
+        "array": "cpp",
+        "bitset": "cpp",
+        "initializer_list": "cpp",
+        "map": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp"
     },
     "java.debug.settings.onBuildFailureProceed": true,
     "C_Cpp.errorSquiggles": "enabled"
