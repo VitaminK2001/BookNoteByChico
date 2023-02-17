@@ -1,4 +1,4 @@
-package 算法杂思.深度搜索;
+package 深度搜索;
 
 import java.util.ArrayList;
 import java.util.List;

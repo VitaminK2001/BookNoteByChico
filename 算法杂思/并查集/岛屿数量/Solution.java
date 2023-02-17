@@ -1,4 +1,4 @@
-package 算法杂思.并查集.岛屿数量;
+package 并查集.岛屿数量;
 
 import java.util.LinkedList;
 // https://leetcode.cn/problems/number-of-islands/solution/dao-yu-shu-liang-by-leetcode/

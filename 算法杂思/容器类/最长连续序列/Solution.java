@@ -1,4 +1,4 @@
-package 算法杂思.容器类.最长连续序列;
+package 容器类.最长连续序列;
 
 import java.util.HashSet;
 import java.util.Set;
