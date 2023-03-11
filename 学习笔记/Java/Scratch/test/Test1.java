@@ -4,7 +4,11 @@ public class Test1 {
     public static void main(String[] args) {
         Manager m = new Manager();
         System.out.println(m.getSalary());
-        
+        char[] a = new char[10];
+        a[0] = 'a';
+        a[1] = 'b';
+        a[2] = 'c';
+        System.out.println(a);
     }
 }
 class Employee {
@@ -27,4 +31,5 @@ class Manager extends Employee {
         salary = 12;
     }
 }
+
 
